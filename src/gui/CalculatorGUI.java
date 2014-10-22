@@ -3,6 +3,7 @@ package gui;
 import javax.swing.JFrame;
 import util.Core;
 import util.Functions;
+import util.UserInterface;
 
 /**
  * 
@@ -11,7 +12,7 @@ import util.Functions;
  * @since 1.7
  *
  */
-public class CalculatorGUI extends JFrame {
+public class CalculatorGUI extends JFrame implements UserInterface {
 	public CalculatorGUI() {
 		this.setSize(300, 400);
 		this.setVisible(true);
