@@ -1,5 +1,6 @@
 package util;
 
+import gui.CalculatorGUI;
 /**
  * 
  * @author Joonas Maliniemi, Toni Nahkala & Pyry Nikunen
@@ -8,5 +9,7 @@ package util;
  *
  */
 public class Core {
-
+	public static void main(String[] args) {
+		CalculatorGUI gui = new CalculatorGUI();
+	}
 }
