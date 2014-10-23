@@ -52,4 +52,20 @@ public class Functions {
 		
 		return difference;
 	}
+	
+	/**
+	 * @param a the base number given by the user
+	 * @param b the exponent given by the user
+	 * @return the power
+	 */
+	public int exponentiation(int a, int b) {
+		int power = a;
+		
+		for (int i = 1; i < b; i++) {
+			power *= a;
+		}
+		
+		return power;
+	}
+	
 }
