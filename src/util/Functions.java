@@ -23,7 +23,7 @@ public class Functions {
 	/**
 	 * @param a one of the integers given by the user
 	 * @param b one of the integers given by the user
-	 * @return the quotient of the integers	 
+	 * @return the quotient
 	 */
 	public int division(int a, int b) {
 		int quotient = a / b;
